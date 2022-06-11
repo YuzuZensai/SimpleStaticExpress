@@ -1,3 +1,3 @@
 # SimpleStaticExpress
 
-Simple static express server
+Just a quick simple express server for hosting static content
