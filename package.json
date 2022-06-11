@@ -10,5 +10,10 @@
     "dotenv": "^16.0.1",
     "express": "^4.18.1",
     "serve-index": "^1.9.1"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "docker-build": "docker build . -t ghcr.io/yuzuzensai/simplestaticexpress:latest",
+    "docker-run": "docker run -d --name SimpleStaticExpress --mount type=bind,source=\"$(pwd)\"/public,target=/home/node/app/public --network host --env-file .env ghcr.io/yuzuzensai/simplestaticexpress:latest"
   }
 }
