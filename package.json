@@ -3,9 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "repository": "https://github.com/YuzuZensai/SimpleStaticExpress.git",
-  "author": "Yuzu <contact@kirameki.pink>",
+  "author": "Yuzu <yuzu@kirameki.cafe>",
   "license": "GPL-3.0",
-  "private": true,
   "dependencies": {
     "dotenv": "^16.0.1",
     "express": "^4.18.1",
